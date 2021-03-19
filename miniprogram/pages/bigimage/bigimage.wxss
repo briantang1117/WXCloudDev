@@ -1,0 +1,4 @@
+/* pages/bigimage/bigimage.wxss */
+image{
+  width: 750rpx;
+}

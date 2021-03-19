@@ -1,0 +1,47 @@
+.bookblock{
+  margin-top: 29rpx;
+  margin-left: 29rpx;
+  width: 692rpx;
+  height: 90rpx;
+  border-radius: 28rpx;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.bookinfo{
+  font-size: 30rpx;
+  text-align: center;
+  width: 230rpx;
+}
+
+.searchbar{
+  margin-top: 29rpx;
+  margin-left: 29rpx;
+  padding-left: 20rpx;
+  width: 672rpx;
+  height: 90rpx;
+  border-radius: 28rpx;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.searchbar input{
+  width: 580rpx;
+}
+
+.searchbutton{
+  border:1px black solid;
+  border-radius: 20rpx;
+  padding: 0
+}
+
+.searchbutton text {
+  position: absolute;
+  top: 2rpx;
+  left: 10rpx;
+  font-size: 24rpx;
+}

@@ -1,0 +1,34 @@
+<!--pages/index/index.wxml-->
+<view class="bookblock">
+  <view class="bookinfo">书名</view>
+  <view class="bookinfo">作者</view>
+  <view class="bookinfo">价格</view>
+</view>
+<block wx:for="{{bookshelf}}">
+  <view class="bookblock">
+    <view class="bookinfo">{{item.name}}</view>
+    <view class="bookinfo">{{item.author}}</view>
+    <view class="bookinfo">{{item.price}}</view>
+    <button class="delete" style="width:70rpx;height:40rpx" bindtap="deletebook" id="{{item._id}}">
+      <text>删除</text>
+    </button>
+  </view>
+</block>
+
+<form catchsubmit="formSubmit">
+  <view class="bookblock">
+    <view class="bookinfo">
+      <input type="text" placeholder="书名" name="nameinput" placeholder-class="addbookinfo" value="{{inputvalue}}">
+      </input></view>
+    <view class="bookinfo">
+      <input type="text" placeholder="作者" name="authinput" value="{{inputvalue}}" placeholder-class="addbookinfo">
+      </input></view>
+    <view class="bookinfo">
+      <input type="text" placeholder="价格" name="priceinput" value="{{inputvalue}}" placeholder-class="addbookinfo">
+      </input></view>
+    <button class="add" style="width:70rpx;height:40rpx" formType="submit">
+      <text>添加</text>
+    </button>
+  </view>
+</form>
+<view style="height:100rpx"></view>

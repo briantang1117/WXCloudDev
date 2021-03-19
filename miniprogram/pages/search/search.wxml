@@ -1,0 +1,21 @@
+<!--pages/search/search.wxml-->
+<form catchsubmit="formSubmit">
+<view class="searchbar">
+  <input type="text" placeholder="请输入书名" name="searchinput"></input>
+  <button class="searchbutton" style="width:70rpx;height:40rpx" formType="submit">
+      <text>搜索</text>
+    </button>
+</view>
+</form>
+<view class="bookblock">
+  <view class="bookinfo">书名</view>
+  <view class="bookinfo">作者</view>
+  <view class="bookinfo">价格</view>
+</view>
+<block wx:for="{{books}}">
+  <view class="bookblock">
+    <view class="bookinfo">{{item.name}}</view>
+    <view class="bookinfo">{{item.author}}</view>
+    <view class="bookinfo">{{item.price}}</view>
+  </view>
+</block>

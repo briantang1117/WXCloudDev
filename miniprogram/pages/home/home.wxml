@@ -1,0 +1,8 @@
+<view class="content">
+  <view style="height:350rpx"></view>
+  <button type="default" plain="true" id="search" bindtap="NavTo">书目搜索</button>
+  <view style="height:350rpx"></view>
+  <button type="default" plain="true" id="index" bindtap="NavTo">书目管理</button>
+</view>
+
+

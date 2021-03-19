@@ -1,0 +1,21 @@
+/* pages/homework2/homework2.wxss */
+.content{
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+  padding-top: 30rpx;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.imagebox{
+  background-color: white;
+  width: 330rpx;
+  height: 330rpx;
+  border-radius: 30rpx;
+  margin-bottom: 30rpx;
+}
+.imagebox image{
+  width: 330rpx;
+  height: 330rpx;
+  border-radius: 30rpx;
+}

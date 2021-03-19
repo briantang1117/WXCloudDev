@@ -1,0 +1,14 @@
+<!--pages/homework2/homework2.wxml-->
+<view class="content">
+  <block wx:for="{{image}}" wx:key="index">
+    <view class="imagebox">
+      <image src="{{item.url}}" mode="aspectFill" bindtap="showBigpicture" id="{{item._id}}"></image>
+    </view>
+  </block>
+
+</view>
+<view>
+  <button type="primary" size="default" bindtap="chooseimage">上传图片</button>
+</view>
+
+<view style="height: 100rpx"></view>

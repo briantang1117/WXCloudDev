@@ -1,0 +1,5 @@
+<image src="{{image.url}}" mode="widthFix"></image>
+<view style="height:30rpx"></view>
+<view>
+  <button type="primary" size="default" bindtap="dlimage">下载图片</button>
+</view>

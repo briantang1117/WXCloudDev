@@ -1,0 +1,7 @@
+<!--pages/content/content.wxml-->
+<view class="content">
+  <view style="height:350rpx"></view>
+  <button type="default" plain="true" id="home" bindtap="NavTo">第一周 增删改查</button>
+  <view style="height:350rpx"></view>
+  <button type="default" plain="true" id="homework2" bindtap="NavTo">第二周 上传下载</button>
+</view>
