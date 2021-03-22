@@ -27,13 +27,13 @@
 <view class="block">
   <view class="alpha">a*b</view>
   <view>
-    <input type="text"></input>
+    <input type="text" value="{{multires}}"></input>
   </view>
 </view>
 <view class="block">
   <view class="alpha">a/b</view>
   <view>
-    <input type="text"></input>
+    <input type="text" value="{{devres}}"></input>
   </view>
 </view>
 <view style="height:50rpx"></view>

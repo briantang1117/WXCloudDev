@@ -7,4 +7,4 @@
 - 下载图片：miniprogram/pages/bigimage
 ## 第三周：云函数
 - 小程序：miniprogram/pages/cloudfun
-- 云函数：cloudfunctions/add、cloudfunctions/minus
+- 云函数：cloudfunctions/add、cloudfunctions/minus、cloudfunctions/multi、cloudfunctions/devide

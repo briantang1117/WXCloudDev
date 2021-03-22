@@ -6,7 +6,9 @@ Page({
    */
   data: {
     addres: '',
-    minres: ''
+    minres: '',
+    multires:'',
+    devresd:''
   },
 
   formSubmit(e) {
@@ -23,7 +25,7 @@ Page({
         b: b,
       },
       success: function (res) {
-        console.log(res.result.sum) // 3
+        console.log(res.result.sum)
         that.setData({
           addres: res.result.sum
         })
@@ -31,17 +33,42 @@ Page({
       fail: console.error
     })
     wx.cloud.callFunction({
-      // 云函数名称
       name: 'minus',
-      // 传给云函数的参数
       data: {
         a: a,
         b: b,
       },
       success: function (res) {
-        console.log(res.result.sum) // 3
         that.setData({
           minres: res.result.sum
+        })
+      },
+      fail: console.error
+    })
+    wx.cloud.callFunction({
+      name: 'multi',
+      data: {
+        a: a,
+        b: b,
+      },
+      success: function (res) {
+        console.log(res.result.sum)
+        that.setData({
+          multires: res.result.sum
+        })
+      },
+      fail: console.error
+    })
+    wx.cloud.callFunction({
+      name: 'devide',
+      data: {
+        a: a,
+        b: b,
+      },
+      success: function (res) {
+        console.log(res.result.sum)
+        that.setData({
+          devres: res.result.sum
         })
       },
       fail: console.error
