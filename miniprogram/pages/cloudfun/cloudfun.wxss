@@ -1,0 +1,17 @@
+/* pages/cloudfun/cloudfun.wxss */
+.block{
+  margin-top: 32rpx;
+  display: flex;
+  justify-content: space-around;
+}
+
+.alpha{
+  width: 100rpx;
+  text-align: center;
+}
+
+.block input{
+  text-align: center;
+  border-radius: 10rpx;
+  background-color: #c4c4c4;
+}

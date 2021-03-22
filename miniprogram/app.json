@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/cloudfun/cloudfun",
     "pages/content/content",
     "pages/homework2/homework2",
     "pages/home/home",

@@ -1,0 +1,41 @@
+<!--pages/cloudfun/cloudfun.wxml-->
+<form  catchsubmit="formSubmit">
+  <view class="block">
+  <view class="alpha">a</view>
+  <view>
+    <input type="text" name="a"></input>
+  </view>
+</view>
+<view class="block">
+  <view class="alpha">b</view>
+  <view>
+    <input type="text" name="b"></input>
+  </view>
+</view>
+<view class="block">
+  <view class="alpha">a+b</view>
+  <view>
+    <input type="text" value="{{addres}}"></input>
+  </view>
+</view>
+<view class="block">
+  <view class="alpha">a-b</view>
+  <view>
+    <input type="text" value="{{minres}}"></input>
+  </view>
+</view>
+<view class="block">
+  <view class="alpha">a*b</view>
+  <view>
+    <input type="text"></input>
+  </view>
+</view>
+<view class="block">
+  <view class="alpha">a/b</view>
+  <view>
+    <input type="text"></input>
+  </view>
+</view>
+<view style="height:50rpx"></view>
+<button type="primary" size="default" formType="submit">计算</button>
+</form>

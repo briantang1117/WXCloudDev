@@ -40,6 +40,7 @@
   "projectname": "clouddev",
   "libVersion": "2.14.1",
   "appid": "wxe220fc24f8fdcf10",
+  "cloudfunctionTemplateRoot": "cloudfunctionTemplate",
   "condition": {
     "search": {
       "list": []
