@@ -14,3 +14,4 @@
 ## 作业五：云函数调用云数据库
 - 小程序：miniprogram/pages/moviesearch
 - 云函数：cloudfunctions/moviefun
+![云数据库结构](miniprogram/images/No5db.png)
