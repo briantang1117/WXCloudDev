@@ -1,0 +1,161 @@
+/* pages/request/request.wxss */
+/* pages/movie/movie.wxss */
+.type{
+  display: flex;
+  flex-direction: row;
+  width: 96%;
+  margin: 0 auto;
+}
+
+.type view{
+  margin: 0 auto;
+}
+
+.select{
+  font-size: 12px;
+  width: 48%;
+  color: red;
+  text-align: center;
+  height: 45px;
+  line-height: 45px;
+  border-bottom: 5rpx solid red;
+}
+
+.default{
+  font-size: 12px;
+  width: 48%;
+  text-align: center;
+  height: 45px;
+  line-height: 45px;
+}
+
+.movie{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+}
+
+.pic image{
+  width: 80px;
+  height: 100px;
+  padding: 10px;
+}
+
+.base-info{
+  width: 75%;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.btn{
+  position: absolute;
+  right: 20px;
+}
+
+.btn button{
+  color: red;
+  border: 1px solid red;
+  background-color: #ffffff;
+}
+
+.name{
+  font-size: 15px;
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.desc{
+  color: #333333;
+  width: 200px;
+
+
+  text-overflow: -o-ellipsis-lastline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  align-content: center;
+}
+
+.hr{
+  height: 1px;
+  width: 100%;
+  background-color: #cccccc;
+  opacity: 0.5;
+}
+
+.items{
+  display: flex;
+  flex-direction: row;
+}
+
+.item{
+  margin-right: 5px;
+  text-align: center;
+}
+
+.movieName{
+  font-size: 12px;
+  text-align: center;
+}
+.movieDesc{
+  font-size: 12px;
+  color: #ccc;
+}
+
+.title{
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.intro{
+  width: 60%;
+}
+
+.zhinan{
+  font-size: 16px;
+}
+
+.third{
+  font-size: 13px;
+  color: #ccc;
+  margin-top: 10px;
+}
+
+.month{
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 11px;
+}
+
+.first{
+  width: 40px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #fe4e62;
+  color: white;
+  margin-right: 10px;
+}
+
+.second{
+  width: 40px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  border-radius: 10px;
+  color: #ccc;
+  margin-right: 10px;
+}
+
+.items{
+  display: flex;
+  flex-direction: row;
+}

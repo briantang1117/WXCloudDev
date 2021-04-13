@@ -1,0 +1,17 @@
+<!--pages/request/request.wxml-->
+<view class="content">
+  <view class="type">
+    <view class="{{currentTab==0?'select':'default'}}" id="0" bindtap="switchNav">正在热映</view>
+    <view class="{{currentTab==1?'select':'default'}}" id="1" bindtap="switchNav">即将上映</view>
+  </view>
+  <view class="hr"></view>
+
+  <swiper current="{{currentTab}}" style="height:910px;">
+    <swiper-item>
+      <include src='hotMovie.wxml'></include>
+    </swiper-item>
+    <swiper-item>
+      <include src='waitMovie.wxml'></include>
+    </swiper-item>
+  </swiper>
+</view>
