@@ -1,0 +1,44 @@
+/* pages/moviesearch/moviesearch.wxss */
+.search{
+  height: 64rpx;
+  width: 530rpx;
+  margin-left: 32rpx;
+  border-radius: 10rpx;
+  background-color: #cccccc;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 20rpx;
+}
+
+.sousuo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.movie{
+  margin-top: 32rpx;
+  background-color: teal;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 350rpx;
+  padding-left: 25rpx;
+}
+
+.movie image{
+  width: 200rpx;
+  height: 300rpx
+}
+.base-info{
+  margin-left: 32rpx;
+  color: white;
+  font-size: 28rpx;
+  line-height: 2em;
+}
+
+.summary{
+  padding: 25rpx;
+  line-height: 1.5em;
+}

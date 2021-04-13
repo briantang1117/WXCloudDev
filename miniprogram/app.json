@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/moviesearch/moviesearch",
     "pages/request/request",
     "pages/cloudfun/cloudfun",
     "pages/content/content",

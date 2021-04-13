@@ -11,3 +11,6 @@
 ## 作业四：云函数发送网络请求功能
 - 小程序：miniprogram/pages/request
 - 云函数：cloudfunctions/reqfun 使用第三方 request-promise 模块实现 http 请求
+## 作业五：云函数调用云数据库
+- 小程序：miniprogram/pages/moviesearch
+- 云函数：cloudfunctions/moviefun

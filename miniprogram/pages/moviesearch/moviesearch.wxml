@@ -1,0 +1,32 @@
+<!--pages/moviesearch/moviesearch.wxml-->
+<view class="content">
+  <view class="sousuo">
+    <view class="search">
+      <image src="/images/searchicon.png" style="height:40rpx;width:40rpx"></image>
+      <input placeholder="请输入电影名" type="text" bindinput="bindInputName"></input>
+    </view>
+    <button type="primary" size="mini" bindtap="bindSearch">搜索</button>
+  </view>
+
+
+  <view wx:if='{{length > 0}}'>
+    <view class="bg">
+      <view class="movie">
+        <image src="{{movie.image}}" mode="aspectFill"></image>
+        <view class="movie-info">
+          <view class="base-info">
+            <view class="name">{{movie.name}}</view>
+            <view class="desc">国家：{{movie.countries}} | {{movie.year}}</view>
+            <view class="desc">类型：{{movie.type}}</view>
+            <view class="desc">导演：{{movie.directors}}</view>
+            <view class="desc">主演：{{movie.casts}}</view>
+          </view>
+        </view>
+      </view>
+      <view class="summary">
+        <text>{{movie.summary}}</text>
+      </view>
+    </view>
+    <button type="primary" >立即购票</button>
+  </view>
+</view>
