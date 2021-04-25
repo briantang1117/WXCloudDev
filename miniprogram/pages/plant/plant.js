@@ -5,7 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+aiResult:[{name:"桃花",score:0.9},{name:"樱花",score:0.2}]
   },
 
   /**

@@ -1,3 +1,8 @@
+<view class="bg">
+  <view class="pic">
+    <image src="http://www.thexxdd.cn/media/goods/images/banner1.jpg" mode="widthFix"></image>
+  </view>
+</view>
 
 <view class="result">
   <text class="result-text">识别结果</text>
@@ -10,4 +15,16 @@
     <view>置信度</view>
     <view>百度百科</view>
   </view>
+  <block wx:for="{{aiResult}}" wx:for-item="item" wx:for-index="id">
+  <view class="photo-attr">
+    <view>{{item.name}}</view>
+    <view>{{item.score}}</view>
+    <view bindtap="baike" id="{{id}}" data-testid="{{baikedata}}">查看百科</view>
+  </view>
+</block>
 </view>
+
+<view class="btn">
+  <button type="primary" bindtap="chooseImages">选择图片</button>
+</view>
+
