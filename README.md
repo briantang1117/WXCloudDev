@@ -16,3 +16,6 @@
 - 云函数：cloudfunctions/moviefun
 - 云数据库结构如下：
 ![云数据库结构](miniprogram/images/No5db.png)
+## 作业六：云函数增加数据库条目
+- 小程序：miniprogram/pages/updateinfo
+- 云函数：cloudfunctions/addfilm

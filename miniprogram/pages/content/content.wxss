@@ -1,1 +1,7 @@
 /* pages/content/content.wxss */
+.content{
+  height: 900rpx;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}

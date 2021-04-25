@@ -1,0 +1,42 @@
+/* pages/updateinfo/updatainfo.wxss */
+.title{
+  width: 750rpx;
+  text-align: center;
+  font-size: 40rpx;
+  margin-top: 32rpx;
+  margin-bottom: 32rpx;
+}
+
+.baseinfo{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 32rpx;
+  margin-right: 32rpx;
+  margin-bottom: 20rpx;
+  align-items: center;
+}
+.baseintro{
+  margin-left: 32rpx;
+  margin-right: 32rpx;
+  margin-bottom: 20rpx;
+  align-items: center;
+}
+input{
+  padding: 8rpx;
+  background-color: #eeeeee;
+  border-radius: 10rpx;
+  width: 550rpx;
+}
+
+textarea{
+  margin-top: 6rpx;
+  background-color: #eeeeee;
+  border-radius: 10rpx;
+  width: 500rpx;
+}
+
+.btn{
+  margin-top: 32rpx;
+  display: flex;
+  justify-content: space-around;
+}

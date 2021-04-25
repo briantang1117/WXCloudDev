@@ -1,7 +1,9 @@
 <!--pages/content/content.wxml-->
 <view class="content">
-  <view style="height:350rpx"></view>
-  <button type="default" plain="true" id="home" bindtap="NavTo">第一周 增删改查</button>
-  <view style="height:350rpx"></view>
-  <button type="default" plain="true" id="homework2" bindtap="NavTo">第二周 上传下载</button>
+  <button style="width:600rpx" type="default" plain="true" id="home" bindtap="NavTo">第一周 云数据库功能</button>
+  <button style="width:600rpx" type="default" plain="true" id="homework2" bindtap="NavTo">第二周 云数据库存储</button>
+  <button style="width:600rpx" type="default" plain="true" id="cloudfun" bindtap="NavTo">第三周 创建云函数</button>
+  <button style="width:600rpx" type="default" plain="true" id="request" bindtap="NavTo">作业四 云函数网络请求</button>
+  <button style="width:600rpx" type="default" plain="true" id="moviesearch" bindtap="NavTo">作业五 云函数查询数据库</button>
+  <button style="width:600rpx" type="default" plain="true" bindtap="NavTo6">第六周 云函数添加数据库</button>
 </view>

@@ -1,10 +1,11 @@
 {
   "pages": [
+    "pages/content/content",
+    "pages/updateinfo/updatainfo",
     "pages/plant/plant",
     "pages/moviesearch/moviesearch",
     "pages/request/request",
     "pages/cloudfun/cloudfun",
-    "pages/content/content",
     "pages/homework2/homework2",
     "pages/home/home",
     "pages/search/search",

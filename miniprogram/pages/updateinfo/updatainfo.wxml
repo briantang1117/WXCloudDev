@@ -1,0 +1,48 @@
+<!--pages/updateinfo/updatainfo.wxml-->
+<view class="content">
+  <view class="title">添加电影信息</view>
+  <form bindsubmit="bindsubmitForm">
+
+    <view class="baseinfo">
+      <view class="desc">编号:</view>
+      <input type="text" name='index' />
+    </view>
+    <view class="baseinfo">
+      <view class="desc">影片:</view>
+      <input type="text" name='filename' />
+    </view>
+    <view class="baseinfo">
+      <view class="desc">国家:</view>
+      <input type="text" name='countries' />
+    </view>
+    <view class="baseinfo">
+      <view class="desc">类型:</view>
+      <input type="text" name='type' />
+    </view>
+    <view class="baseinfo">
+      <view class="desc">导演：</view>
+      <input type="text" name='directors' />
+    </view>
+    <view class="baseinfo">
+      <view class="desc">主演：</view>
+      <input type="text" name='casts' />
+    </view>
+    <view class="baseinfo">
+      <view class="desc">时间：</view>
+      <input type="text" name='year' />
+    </view>
+    <view class="baseintro">
+      <view class="desc">简介：</view>
+      <textarea name="summary" style="width:100%"></textarea>
+    </view>
+    <view class="baseinfo">
+      <view class="desc">海报：</view>
+      <button type="primary" size="mini" name="image" bindtap="chooseimage">上传海报</button>
+    </view>
+    <view class="btn">
+      <button type="primary" size="mini" form-type="submit" id="1">添加</button>
+      <button type="primary" size="mini" form-type="submit" id="2">修改</button>
+      <button type="primary" size="mini" form-type="submit" id="3">删除</button>
+    </view>
+  </form>
+</view>

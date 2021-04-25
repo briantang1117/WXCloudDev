@@ -9,8 +9,15 @@ Page({
   },
   NavTo: function(e) {
     var id=e.currentTarget.id
+    var url = '../'+id+'/'+id
+    console.log(url)
     wx.navigateTo({
-      url: '../'+id+'/'+id,
+      url: url
+    })
+  },
+  NavTo6: function() {
+    wx.navigateTo({
+      url: "../updateinfo/updatainfo"
     })
   },
 
