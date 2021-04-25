@@ -1,0 +1,13 @@
+
+<view class="result">
+  <text class="result-text">识别结果</text>
+  <text class="result-friends">分享给朋友</text>
+</view>
+
+<view class="photo-field">
+  <view class="photo">
+    <view>名称</view>
+    <view>置信度</view>
+    <view>百度百科</view>
+  </view>
+</view>
