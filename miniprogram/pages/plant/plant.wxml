@@ -1,6 +1,6 @@
 <view class="bg">
   <view class="pic">
-    <image src="http://www.thexxdd.cn/media/goods/images/banner1.jpg" mode="widthFix"></image>
+    <image src="{{photo}}" mode="widthFix"></image>
   </view>
 </view>
 

@@ -1,11 +1,43 @@
 // pages/plant/plant.js
 Page({
-
   /**
    * 页面的初始数据
    */
   data: {
-aiResult:[{name:"桃花",score:0.9},{name:"樱花",score:0.2}]
+    photo: "",
+    aiResult: []
+  },
+
+  chooseImages: function () {
+    let that = this
+    wx.chooseImage({
+      count: 1,
+      sizeType: ['original', 'compressed'],
+      sourceType: ['album', 'camera'],
+      success(res) {
+        console.log(res)
+        const tempFilePath = res.tempFilePaths[0]
+        that.setData({
+          photo: tempFilePath
+        })
+        var imagebase64 = wx.getFileSystemManager().readFileSync(tempFilePath, "base64")
+        console.log(imagebase64)
+        wx.cloud.callFunction({
+          name: "aiplants",
+          data: {
+            imagebase64: imagebase64
+          },
+          success: res => {
+            console.log(res.result.plant.result)
+            that.setData({
+              aiResult: res.result.plant.result
+            })
+          }
+        })
+      }
+    })
+
+
   },
 
   /**
