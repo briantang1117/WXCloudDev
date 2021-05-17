@@ -6,4 +6,5 @@
   <button style="width:600rpx" type="default" plain="true" id="request" bindtap="NavTo">作业四 云函数网络请求</button>
   <button style="width:600rpx" type="default" plain="true" id="moviesearch" bindtap="NavTo">作业五 云函数查询数据库</button>
   <button style="width:600rpx" type="default" plain="true" bindtap="NavTo6">第六周 云函数添加数据库</button>
+  <button style="width:600rpx" type="default" plain="true" id="plant" bindtap="NavTo">AI植物识别</button>
 </view>

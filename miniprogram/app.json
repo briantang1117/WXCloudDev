@@ -1,7 +1,8 @@
 {
   "pages": [
-    "pages/plant/plant",
+    
     "pages/content/content",
+    "pages/plant/plant",
     "pages/updateinfo/updatainfo",
     "pages/moviesearch/moviesearch",
     "pages/request/request",
